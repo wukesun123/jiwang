@@ -1,0 +1,5 @@
+jpcap文件夹里wincap点击安装
+jiwang是抓TCP包的界面较简陋，结构简单，但补全了本来类中无检验和的问题。
+Network protocal analysis是抓IP数据包的界面显示较好，无检验和，无法选择网卡，将界面和抓包后的数据处理解耦合。
+两者内选择网卡和抓包函数都是jacap内置相关类的函数
+打开工程后在project Structure里导入jpcap里的jpcap.jar包即可
